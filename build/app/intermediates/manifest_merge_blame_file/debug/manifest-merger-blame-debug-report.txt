@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cashier_mate"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/nusatrip/AndroidStudioProjects/kasir/cashier/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/home/nusatrip/AndroidStudioProjects/kasir/cashier/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Request legacy Bluetooth permissions on older devices. -->
+16-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+16-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+17-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-74
+18-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-71
+19    <!--
+20         Needed only if your app looks for Bluetooth devices.
+21         You must add an attribute to this permission, or declare the
+22         ACCESS_FINE_LOCATION permission, depending on the results when you
+23         check location usage in your app.
+24    -->
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-79
+25-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:20:22-76
+26    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+26-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:21:5-73
+26-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:21:22-70
+27    <!--
+28         Needed only if your app makes the device discoverable to Bluetooth
+29         devices.
+30    -->
+31    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+31-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:27:5-78
+31-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:27:22-75
+32    <!--
+33         Needed only if your app communicates with already-paired Bluetooth
+34         devices.
+35    -->
+36    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+36-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-76
+36-->[:blue_thermal_printer] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/blue_thermal_printer/intermediates/merged_manifest/debug/AndroidManifest.xml:33:22-73
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:connectivity_plus] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+37-->[:connectivity_plus] /home/nusatrip/AndroidStudioProjects/kasir/cashier/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.cashier_mate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.cashier_mate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+44    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+46        android:name="android.hardware.camera"
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+49        android:name="android.hardware.camera.front"
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+50        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+51    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+53        android:name="android.hardware.camera.autofocus"
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+55    <uses-feature
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+56        android:name="android.hardware.camera.flash"
+56-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+57        android:required="false" />
+57-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+58    <uses-feature
+58-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+59        android:name="android.hardware.screen.landscape"
+59-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+60        android:required="false" />
+60-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+61    <uses-feature
+61-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+62        android:name="android.hardware.wifi"
+62-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+63        android:required="false" />
+63-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+64
+65    <application
+66        android:name="android.app.Application"
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.13.1] /home/nusatrip/.gradle/caches/transforms-3/1768fdc36769e2cfe533b8304096d50c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+68        android:debuggable="true"
+69        android:icon="@mipmap/launcher_icon"
+70        android:label="Cashier" >
+71        <activity
+72            android:name="com.example.cashier_mate.MainActivity"
+73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+74            android:exported="true"
+75            android:hardwareAccelerated="true"
+76            android:launchMode="singleTop"
+77            android:theme="@style/LaunchTheme"
+78            android:windowSoftInputMode="adjustResize" >
+79
+80            <!--
+81                 Specifies an Android theme to apply to this Activity as soon as
+82                 the Android process has started. This theme is visible to the user
+83                 while the Flutter UI initializes. After that, this theme continues
+84                 to determine the Window background behind the Flutter UI.
+85            -->
+86            <meta-data
+87                android:name="io.flutter.embedding.android.NormalTheme"
+88                android:resource="@style/NormalTheme" />
+89
+90            <intent-filter>
+91                <action android:name="android.intent.action.MAIN" />
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+94            </intent-filter>
+95        </activity>
+96        <!--
+97             Don't delete the meta-data below.
+98             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+99        -->
+100        <meta-data
+101            android:name="flutterEmbedding"
+102            android:value="2" />
+103
+104        <uses-library
+104-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+107        <uses-library
+107-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.2.0] /home/nusatrip/.gradle/caches/transforms-3/9b25c3482651236fa11439d4200397d1/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+113            android:authorities="com.example.cashier_mate.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.0.0] /home/nusatrip/.gradle/caches/transforms-3/bd44fb57d7c3686a718759dd3e583490/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nusatrip/.gradle/caches/transforms-3/3efe33e61c1b397dddbadd076116b050/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nusatrip/.gradle/caches/transforms-3/3efe33e61c1b397dddbadd076116b050/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/nusatrip/.gradle/caches/transforms-3/3efe33e61c1b397dddbadd076116b050/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <activity
+126-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+127            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+127-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+128            android:clearTaskOnLaunch="true"
+128-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+129            android:screenOrientation="sensorLandscape"
+129-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+130            android:stateNotNeeded="true"
+130-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+131            android:theme="@style/zxing_CaptureTheme"
+131-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+132            android:windowSoftInputMode="stateAlwaysHidden" />
+132-->[com.journeyapps:zxing-android-embedded:3.6.0] /home/nusatrip/.gradle/caches/transforms-3/7b163b8994b63007cfad3c65c06d4bec/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+133
+134        <receiver
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+136            android:directBootAware="false"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+137            android:enabled="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+138            android:exported="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+139            android:permission="android.permission.DUMP" >
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/nusatrip/.gradle/caches/transforms-3/30d1d9db84b1a0f755f3c08ce7103b85/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+151            </intent-filter>
+152        </receiver>
+153    </application>
+154
+155</manifest>
